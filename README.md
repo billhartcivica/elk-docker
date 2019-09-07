@@ -4,6 +4,10 @@
 
 Run the latest version of the [Elastic stack][elk-stack] with Docker and Docker Compose.
 
+Note: Apart from having Docker and Docker-Compose installed, you must also disable or set to 'permissive' your SELINUX service. Alternatively,
+if you're familiar with SELINUX you can configure it accordingly. You must also have the Git client installed to pull this repo, of course.
+It is assumed the user also has a degree of knowledge about how to use the ELK stack - presumably more than me!
+
 To run this deployment, simply download the repo (git clone...) and execute the 'start.sh' script. This will
 start the stack and inject the data sourced from the remote Git repo. 
 
