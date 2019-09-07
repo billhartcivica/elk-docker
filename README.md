@@ -16,7 +16,7 @@ The stack is pre-configured with the following **privileged** bootstrap user:
 * user: *elastic*
 * password: *changeme*
 
-Once running, import the Dashboard1.7.ndjson to view the sample visualisations for the imported data.
+Once running, import the Dashboard1.9.ndjson to view the sample visualisations for the imported data.
 
 The docker-compose file loads the downloaded data file, mounting it as a persistent share with the container and referencing it
 in the logstash_apache.conf file, located in the logstash/pipeline folder. 
